@@ -1,0 +1,29 @@
+.nxt-watch-logo-img {
+  height: 45px;
+  align-self: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  width: 100%;
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+.display-password-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.err-msg {
+  align-self: start;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #ff0b37;
+}

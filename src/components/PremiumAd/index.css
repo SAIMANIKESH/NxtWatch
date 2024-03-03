@@ -1,0 +1,38 @@
+.home-popup-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.banner-logo-image {
+  width: 185px;
+  height: 40px;
+}
+
+.home-upi-description {
+  font-size: 24px;
+  color: #1e293b;
+  width: 490px;
+}
+
+.get-now-button {
+  text-align: center;
+  color: #1e293b;
+  border: 2px solid #000000;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 20px 11px;
+  align-self: flex-start;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.close-button {
+  background-color: transparent;
+  color: #1e293b;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

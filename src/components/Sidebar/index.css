@@ -1,0 +1,31 @@
+.items-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: auto;
+  margin-left: 16px;
+}
+
+.contacts-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.contact-list-item {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.contacts-icon-image {
+  width: 40px;
+  height: 40px;
+}

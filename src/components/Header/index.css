@@ -1,0 +1,43 @@
+.header-nxt-watch-logo-img {
+  width: 120px;
+  height: 30px;
+}
+
+.header {
+  display: flex;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.small {
+  display: flex;
+}
+
+.large {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .small {
+    display: none;
+  }
+  .large {
+    display: flex;
+  }
+}
+
+.profile-image {
+  width: 35px;
+  height: 35px;
+}
