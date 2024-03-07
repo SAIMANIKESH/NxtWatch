@@ -60,8 +60,8 @@ const Header = props => {
                   onClick={onClickTheme}
                   dark={dark}
                 >
-                  {dark && <FiSun size={32} />}
-                  {!dark && <FaMoon size={31} />}
+                  {dark && <FiSun size={31} />}
+                  {!dark && <FaMoon size={30} />}
                 </TransparentButton>
               </li>
               <ul className="small list-container">
