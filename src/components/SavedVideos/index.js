@@ -1,4 +1,4 @@
-import {HiMiniFire} from 'react-icons/hi2'
+import {HiFire} from 'react-icons/hi'
 
 import Header from '../Header'
 import Sidebar from '../Sidebar'
@@ -46,7 +46,7 @@ const SavedVideos = () => (
                   <div className="trending-success-view-container">
                     <TitleContainer dark={dark}>
                       <ReactIconBackgroundColor dark={dark}>
-                        <HiMiniFire
+                        <HiFire
                           size={35}
                           color="#ff0000"
                           className="react-icon"

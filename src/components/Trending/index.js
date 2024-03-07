@@ -1,7 +1,7 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import Loader from 'react-loader-spinner'
-import {HiMiniFire} from 'react-icons/hi2'
+import {HiFire} from 'react-icons/hi'
 
 import Header from '../Header'
 import Sidebar from '../Sidebar'
@@ -41,7 +41,7 @@ class Trending extends Component {
   getVideoDetails = async () => {
     this.setState({apiStatus: apiStatusConstants.loading})
 
-    const token = Cookies.get('jwtToken')
+    const token = Cookies.get('jwt_token')
 
     const url = 'https://apis.ccbp.in/videos/trending'
     const options = {
@@ -118,7 +118,7 @@ class Trending extends Component {
       <div className="trending-success-view-container">
         <TitleContainer dark={dark}>
           <ReactIconBackgroundColor dark={dark}>
-            <HiMiniFire size={35} color="#ff0000" className="react-icon" />
+            <HiFire size={35} color="#ff0000" className="react-icon" />
           </ReactIconBackgroundColor>
           <MainHeading dark={dark}>Trending</MainHeading>
         </TitleContainer>

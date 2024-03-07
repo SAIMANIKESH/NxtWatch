@@ -47,7 +47,7 @@ class Login extends Component {
     if (response.ok) {
       const {history} = this.props
 
-      Cookies.set('jwtToken', data.jwt_token, {expires: 30}) // creating cookie after checking credentials
+      Cookies.set('jwt_token', data.jwt_token, {expires: 30}) // creating cookie after checking credentials
       history.replace('/')
     } else {
       this.setState({errMsg: data.error_msg})
@@ -55,7 +55,7 @@ class Login extends Component {
   }
 
   render() {
-    const token = Cookies.get('jwtToken')
+    const token = Cookies.get('jwt_token')
     if (token !== undefined) {
       return <Redirect to="/" />
     }

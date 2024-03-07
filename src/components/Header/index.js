@@ -1,7 +1,7 @@
 import Cookies from 'js-cookie'
 import {Link, withRouter} from 'react-router-dom'
 import {FiSun, FiLogOut} from 'react-icons/fi'
-import {FaMoon} from 'react-icons/fa6'
+import {FaMoon} from 'react-icons/fa'
 import {IoMenu} from 'react-icons/io5'
 import Popup from 'reactjs-popup'
 
@@ -22,7 +22,7 @@ const Header = props => {
   const onClickConfirm = () => {
     const {history} = props
 
-    Cookies.remove('jwtToken')
+    Cookies.remove('jwt_token')
     history.replace('/login')
   }
 
@@ -61,7 +61,7 @@ const Header = props => {
                   dark={dark}
                 >
                   {dark && <FiSun size={32} />}
-                  {!dark && <FaMoon size={32} />}
+                  {!dark && <FaMoon size={31} />}
                 </TransparentButton>
               </li>
               <ul className="small list-container">

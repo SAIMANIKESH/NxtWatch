@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import {AiFillHome} from 'react-icons/ai'
-import {HiMiniFire} from 'react-icons/hi2'
+import {HiFire} from 'react-icons/hi'
 import {SiYoutubegaming} from 'react-icons/si'
 import {PiListPlusBold} from 'react-icons/pi'
 import {Link} from 'react-router-dom'
@@ -27,7 +27,7 @@ const initialItemsList = [
   {
     id: 11,
     path: '/trending',
-    image: <HiMiniFire size={22} />,
+    image: <HiFire size={22} />,
     title: 'Trending',
     isActive: null,
   },

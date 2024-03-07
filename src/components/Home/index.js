@@ -46,7 +46,7 @@ class Home extends Component {
     this.setState({apiStatus: apiStatusConstants.loading})
 
     const {searchInput} = this.state
-    const token = Cookies.get('jwtToken')
+    const token = Cookies.get('jwt_token')
 
     const url = `https://apis.ccbp.in/videos/all?search=${searchInput}`
     const options = {

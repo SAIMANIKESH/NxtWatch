@@ -191,13 +191,15 @@ export const SearchButton = styled.button`
 export const ErrHeading = styled.h1`
   color: ${props => (props.dark ? '#ffffff' : '#000000')};
   font-weight: ${props => (props.size ? '500' : '600')};
-  font-size: ${props => (props.size ? '45px' : '28px')};
+  font-size: ${props => (props.size ? '45px' : '30px')};
   margin-top: 45px;
   margin-bottom: 5px;
 `
 export const ErrDescription = styled.p`
   color: ${props => (props.dark ? '#94a3b8' : '#475569')};
   font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
 `
 export const RetryButton = styled(HeaderButton)`
   align-self: center;

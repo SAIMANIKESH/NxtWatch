@@ -51,7 +51,7 @@ class SpecificVideoDetails extends Component {
     const {match} = this.props
     const {params} = match
     const {id} = params
-    const token = Cookies.get('jwtToken')
+    const token = Cookies.get('jwt_token')
 
     const url = `https://apis.ccbp.in/videos/${id}`
     const options = {
